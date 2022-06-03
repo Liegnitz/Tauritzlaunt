@@ -125,6 +125,42 @@ political_decisions = {
             factor = 1
         }
     }
+	
+	proclaim_german_caliphate = {
+        potential = {
+            is_greater_power = yes
+            primary_culture = crimean_german
+            capital_scope = { continent = europe }
+            NOT = {
+                has_country_flag = post_colonial_country
+			}
+        }
+        allow = {
+            war = no
+            nationalism_n_imperialism = 1
+            TAU = {
+				owns = 860
+				owns = 917
+				owns = 1151
+				owns = 1153
+            }
+        }
+        effect = {
+            prestige = 35
+            change_tag = GIR
+            any_pop = {
+                limit = { is_primary_culture = yes }
+                militancy = -1
+            }
+			random_owned = {
+                limit = { owner = { ai = yes } }
+                owner = { add_country_modifier = { name = law_changed_by_force duration = 365 } }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
 
 	embrace_ukrainian_minority = {
         picture = embrace_minority

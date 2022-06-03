@@ -1,0 +1,130 @@
+political_decisions = {
+
+    city_desire = {
+		picture = treaty
+        potential = {
+            primary_culture = crimean_german
+            owns = 860
+            owns = 859
+			owns = 858
+            owns = 828
+            NOT = { has_global_flag = taurida_renamed_istanbul }
+        }
+
+        allow = {
+            prestige = 10
+        }
+
+        effect = {
+            860 = {
+                change_province_name = "Hindenburg"
+            }
+            859 = {
+                change_province_name = "Karlburg"
+			}
+            858 = {
+                change_province_name = "Kaysersdorf"
+            }
+            828 = {
+                change_province_name = "Dreileben"
+                state_scope = {
+                    change_region_name = "Thracian Prussia"
+                }
+            }
+            prestige = 25
+            set_global_flag = taurida_renamed_istanbul
+        }
+    }
+	
+	embrace_bosniak2_minority = {
+        picture = embrace_minority
+        potential = {
+            OR = {
+                tag = GIC
+            }
+            any_owned_province = { is_core = BOS }
+            NOT = {
+                accepted_culture = bosniak
+                has_country_flag = embraced_bosniaks
+				owns = 549
+            }
+        }
+        allow = {
+            year = 1885
+            prestige = 50
+            revolution_n_counterrevolution = 1
+            psychoanalysis = 1
+            social_science = 1
+        }
+        effect = {
+            set_country_flag = embraced_bosniaks
+            add_accepted_culture = bosniak
+            prestige = -25
+            any_pop = {
+                limit = {
+                    OR = {
+                        has_pop_culture = serbian
+                        has_pop_culture = tatar
+                        has_pop_culture = croatian
+                    }
+                }
+                militancy = 4
+                consciousness = 4
+            }
+            any_pop = {
+                limit = { has_pop_culture = bosniak }
+                militancy = -4
+                consciousness = -4
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    embrace_albanian2_minority = {
+        picture = embrace_minority
+        potential = {
+            OR = {
+                tag = GIC
+            }
+            any_owned_province = { is_core = ALB }
+            NOT = {
+                accepted_culture = albanian
+                has_country_flag = embraced_albanian
+				owns = 549
+            }
+        }
+        allow = {
+            year = 1900
+            prestige = 50
+            revolution_n_counterrevolution = 1
+            psychoanalysis = 1
+            social_science = 1
+        }
+        effect = {
+            set_country_flag = embraced_albanian
+            add_accepted_culture = albanian
+            prestige = -25
+            any_pop = {
+                limit = {
+                    OR = {
+                        has_pop_culture = bulgarian
+                        has_pop_culture = tatar
+						has_pop_culture = greek
+                    }
+                }
+                militancy = 4
+                consciousness = 4
+            }
+            any_pop = {
+                limit = { has_pop_culture = albanian }
+                militancy = -4
+                consciousness = -4
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

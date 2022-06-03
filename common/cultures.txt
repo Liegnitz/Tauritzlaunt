@@ -46,7 +46,7 @@ germanic = {
 		Reshad Refet Rifat Riza Sabaheddin Said Selim Shukru Suleyman Siegmund Stefan Talat Tevfik Theodor Thomas 
 		Ulrich Vefik Wilhelm Yusuf Yunus Ziya Ziyauddin }
 
-        last_names = { Adelmannsfelden  Aken Altenburg Aurach Bauer Berlichingen Bibra  Brüggenei Clingkhart Colin Cronberg Dreileben 
+        last_names = { Adelmannsfelden  Aken Altenburg Aurach Bauer Berlichingen Bibra Brüggenei Clingkhart Colin Cronberg Dreileben 
 		Dusemer Ebersberg Erlichshausen Ehingen Erenberg "van Esden" Frankenstein Freyberg Fromm Fuchs Geyssler Goerts Grünberg Grumbach Heuler 
 		Hindenburg Hohenburg Hohenmauthen Hohenstein Hohenzollern-Sigmaringen Hundbiß Jeroschin Kemp Kiesinger Krampff Küchmeister Kuwal Landschad Lamboy 
 		Lamppach Lippe Lochinger Loemans Loringhoven Lufft Mewe Modschiedler Montabaur Müller Nothaft Nuß Österreicher Orn Overlacker Overstolz Polenz Queis 

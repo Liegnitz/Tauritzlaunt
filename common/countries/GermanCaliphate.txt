@@ -1,8 +1,8 @@
-color = { 132  132  130 }
+color = { 80 80 80 }
 graphical_culture = Generic
 
 party = {
-    name = "TAU_conservative"
+    name = "GIC_conservative"
     start_date = 1800.1.1
     end_date = 2000.1.1
 
@@ -77,7 +77,7 @@ party = {
 }
 
 party = {
-    name = "TAU_communist"
+    name = "GIC_communist"
     start_date = 1848.1.1
     end_date = 2000.1.1
 
@@ -86,13 +86,13 @@ party = {
     social_policy = populist_welfare
     economic_policy = planned_economy
     trade_policy = protectionism
-    religious_policy = secularized
+    religious_policy = pluralism
     citizenship_policy = full_citizenship
     war_policy = pro_military
 }
 
 party = {
-    name = "TAU_fascist"
+    name = "GIC_fascist"
     start_date = 1900.1.1
     end_date = 2000.1.1
 
@@ -129,12 +129,12 @@ unit_names = {
         "Ahmet Freyburg" "Wilhelm Klein" "Hussein Vielacker" "Ulrich von Salza" "Fahrettin Hohenzollern" "Ibrahim Steinfurth" "Muhammad von Tauroggen" "Erich Ludendorff" "Ismail Berlichingen"
     }
     clipper_transport = {
-        Königsberg Schlossberg Theodor Ahmedau Neumemelburg Cranz Cemalburg Insterburg Brandenburg Osmanstein Muhammadstadt Carlowitz Schlüßelburg Metgethen Tilsit Memel Gumbinnen Pillau
+        KÃ¶nigsberg Schlossberg Theodor Ahmedau Neumemelburg Cranz Cemalburg Insterburg Brandenburg Osmanstein Muhammadstadt Carlowitz SchlÃ¼ÃŸelburg Metgethen Tilsit Memel Gumbinnen Pillau
     }
     steam_transport = {
-        Königsberg Schlossberg Theodor Ahmedau Neumemelburg Cranz Cemalburg Insterburg Brandenburg Osmanstein Muhammadstadt Carlowitz Schlüßelburg Metgethen Tilsit Memel Gumbinnen Pillau
+        KÃ¶nigsberg Schlossberg Theodor Ahmedau Neumemelburg Cranz Cemalburg Insterburg Brandenburg Osmanstein Muhammadstadt Carlowitz SchlÃ¼ÃŸelburg Metgethen Tilsit Memel Gumbinnen Pillau
     }
     commerce_raider = {
-        Königsberg Schlossberg Theodor Ahmedau Neumemelburg Cranz Cemalburg Insterburg Brandenburg Osmanstein Muhammadstadt Carlowitz Schlüßelburg Metgethen Tilsit Memel Gumbinnen Pillau
+        KÃ¶nigsberg Schlossberg Theodor Ahmedau Neumemelburg Cranz Cemalburg Insterburg Brandenburg Osmanstein Muhammadstadt Carlowitz SchlÃ¼ÃŸelburg Metgethen Tilsit Memel Gumbinnen Pillau
     }
 }

@@ -3,6 +3,7 @@ controller = EGY
 add_core = EGY
 add_core = TUR
 add_core = LBN
+add_core = GIC
 trade_goods = silk
 life_rating = 35
 terrain = hills

@@ -403,6 +403,30 @@
         religion = sunni
         size = 43675
     }
+	
+    clergymen = {
+        culture = crimean_german
+        religion = sunni
+        size = 150
+    }
+
+    artisans = {
+        culture = crimean_german
+        religion = sunni
+        size = 675
+    }
+
+    soldiers = {
+        culture = crimean_german
+        religion = sunni
+        size = 150
+    }
+
+    farmers = {
+        culture = crimean_german
+        religion = sunni
+        size = 4950
+    }
 
     farmers = {
         culture = circassian

@@ -4,6 +4,7 @@
 REB     =     "countries/rebels.txt"
 
 ##HPM
+GIC		   ="countries/GermanCaliphate.txt"
 GIR		   ="countries/IslamicGermany.txt"
 TAU		   ="countries/Tauritzlaunt.txt"
 PNK        ="countries/Pontianak.txt"
