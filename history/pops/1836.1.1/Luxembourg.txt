@@ -1,0 +1,103 @@
+#Luxembourg (163,342)
+#Luxembourg (163,342 / 40,836 POPS)
+397 = {
+    ###### German
+    aristocrats = {
+        culture = north_german
+        religion = catholic
+        size = 105
+    }
+
+    bureaucrats = {
+        culture = north_german
+        religion = catholic
+        size = 71
+    }
+
+    officers = {
+        culture = north_german
+        religion = catholic
+        size = 14
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = catholic
+        size = 169
+    }
+
+    artisans = {
+        culture = north_german
+        religion = catholic
+        size = 760
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = catholic
+        size = 1343
+    }
+
+    farmers = {
+        culture = north_german
+        religion = catholic
+        size = 25767
+    }
+
+    artisans = {
+        culture = north_german
+        religion = protestant
+        size = 102
+    }
+
+    ###### French
+    aristocrats = {
+        culture = french
+        religion = catholic
+        size = 315
+    }
+
+    officers = {
+        culture = french
+        religion = catholic
+        size = 43
+    }
+
+    bureaucrats = {
+        culture = french
+        religion = catholic
+        size = 212
+    }
+
+    clergymen = {
+        culture = french
+        religion = catholic
+        size = 509
+    }
+
+    artisans = {
+        culture = french
+        religion = catholic
+        size = 2281
+    }
+
+    soldiers = {
+        culture = french
+        religion = catholic
+        size = 448
+    }
+
+    farmers = {
+        culture = french
+        religion = catholic
+        size = 8589
+    }
+
+    ###### Jews
+    artisans = {
+        culture = ashkenazi
+        religion = jewish
+        size = 108
+    }
+
+}

@@ -1,0 +1,46 @@
+navy = {
+    name = "Tauritzer Flotte"
+    location = 967
+    ship = {
+        name= "Theodor"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "Schlossberg"
+        type = clipper_transport
+    }
+
+    ship = {
+        name= "Preussen"
+        type = clipper_transport
+    }
+
+}
+
+leader = {
+    name = "Ahmed Refik Hohenmauthen"
+    type = land
+    date = 1825.1.1
+    background = rising_star
+    personality = skilled
+    prestige = 0.1
+    }
+
+leader = {
+    name = "Hussein Salza"
+    type = land
+    date = 1831.1.1
+    background = politician
+    personality = smart_p
+    prestige = 0.15
+    }
+
+leader = {
+    name = "Wilhelm Kiesinger"
+    date = 1815.1.1
+    type = sea
+    personality = inefficient
+    background = elderly
+    prestige = 0.2
+}

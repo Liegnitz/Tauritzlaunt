@@ -1,0 +1,7 @@
+owner = TAU
+controller = TAU
+add_core = TAU
+add_core = UKR
+add_core = CRI
+trade_goods = fish
+life_rating = 35
