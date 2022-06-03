@@ -593,6 +593,8 @@ political_decisions = {
                     NOT = { tag = KUK }
                     NOT = { tag = DNB }
                     NOT = { tag = PRU }
+					NOT = { tag = GIR }
+					NOT = { tag = TAU }
                     NOT = { tag = BAN }
                     NOT = { tag = UBD }
                     NOT = { has_country_flag = post_colonial_country }
@@ -637,6 +639,8 @@ political_decisions = {
                         tag = DNB
                         tag = BAN
                         tag = UBD
+						tag = TAU
+						tag = GIR
                     }
                     OR = {
                         is_vassal = no
@@ -716,6 +720,8 @@ political_decisions = {
                     NOT = { tag = PRU }
                     NOT = { tag = BAN }
                     NOT = { tag = UBD }
+                    NOT = { tag = TAU }
+					NOT = { tag = GIR }
                     NOT = { has_country_flag = post_colonial_country }
                     OR = {
                         all_core = { owned_by = THIS }
@@ -1539,3 +1545,4 @@ political_decisions = {
     }
 
 }
+

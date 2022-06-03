@@ -1,3 +1,95 @@
+army = {
+    name = "Tauritzer Landwehr"
+    location = 967
+
+    regiment = {
+        name= "I. Kavalleriebrigade"
+        type = hussar
+        home = 965
+    }
+	
+	    regiment = {
+        name= "II. Kavalleriebrigade"
+        type = hussar
+        home = 967
+    }
+
+    regiment = {
+        name= "I. Linieninfanteriebrigade"
+        type = infantry
+        home = 967
+    }
+
+    regiment = {
+        name= "II. Linieninfanteriebrigade"
+        type = infantry
+        home = 967
+    }
+
+    regiment = {
+        name= "III. Linieninfanteriebrigade"
+        type = infantry
+        home = 967
+    }
+
+    regiment = {
+        name= "IV. Linieninfanteriebrigade"
+        type = infantry
+        home = 966
+    }
+
+    regiment = {
+        name= "V. Linieninfanteriebrigade"
+        type = infantry
+        home = 966
+    }
+
+    regiment = {
+        name= "VI. Linieninfanteriebrigade"
+        type = infantry
+        home = 970
+    }
+
+    regiment = {
+        name= "I. Artilleriebrigade"
+        type = artillery
+        home = 681
+    }
+	
+    regiment = {
+        name= "II. Artilleriebrigade"
+        type = artillery
+        home = 681
+    }
+	
+    regiment = {
+        name= "III. Artilleriebrigade"
+        type = artillery
+        home = 973
+    }
+
+}
+
+army = {
+    name = "Sicherungscorps Cemalburg "
+    location = 970
+
+	regiment = {
+        name= "VII. Linieninfanteriebrigade"
+        type = infantry
+        home = 970
+    }
+
+	regiment = {
+        name= "III. Kavalleriebrigade"
+        type = hussar
+        home = 967
+    }
+
+}
+	
+
+
 navy = {
     name = "Tauritzer Flotte"
     location = 967
@@ -28,7 +120,7 @@ leader = {
     }
 
 leader = {
-    name = "Hussein Salza"
+    name = "Fahrettin Salza"
     type = land
     date = 1831.1.1
     background = politician
